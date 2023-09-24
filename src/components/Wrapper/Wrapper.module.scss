@@ -1,0 +1,21 @@
+.root {
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+
+  .reverse {
+    padding: 0 8px;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #767a7a;
+  }
+}
+
+@media (max-width: 550px) {
+  .root {
+    flex-direction: column;
+  }
+}
